@@ -2,7 +2,7 @@
 Coarsly Measuring memory, CPU, traffic, and battry cost of an apk, and needs more concise measurement of battery costs. This repository also contains ad-related reviews which explictly contains words `ads` or `advert*` using regex.
 
 ### Cost Measurement
-1. Install RERAN in your rooted mobile phone. Detailed info can be found in this [repository](https://github.com/cuiyungao/RERAN). Then you should use RERAN to record a series of events you want to measure the costs, and save the events to a file, e.g., `./app_path/events.txt`.
+1. Install RERAN in your rooted mobile phone. Detailed info can be found in this [repository](https://github.com/cuiyungao/RERAN). Then you should use RERAN to record a series of events you want to measure the costs, and save the events to a file, e.g., `./apk_path/events.txt`.
 
 2. Run the `cost_measurement.py` file to profile the costs.
 ```
