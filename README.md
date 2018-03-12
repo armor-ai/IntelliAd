@@ -31,7 +31,7 @@ You will get the cost results in the `./results/cost_dict_new.json`.
 You can find ad-related reviews under `ad_reviews`, where `adData` contains attributes of reviews, corresponding to each line of review in the file `adReview`. Totally, 19,579 reviews are used.
 
 ## Related Work
-This repository part of code for our ICSE-C'17 paper: IntelliAd: assisting mobile app developers in measuring ad costs automatically. https://dl.acm.org/citation.cfm?id=3098430
+This repository contains part of code for our ICSE-C'17 paper: IntelliAd: assisting mobile app developers in measuring ad costs automatically. https://dl.acm.org/citation.cfm?id=3098430
 
 ## History
 3/12/2018, first version
