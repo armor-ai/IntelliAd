@@ -1,7 +1,7 @@
 # IntelliAd
 Coarsly Measuring memory, CPU, traffic, and battry cost of an apk, and needs more concise measurement of battery costs. This repository also contains ad-related reviews which explictly contains words `ads` or `advert*` using regex.
 
-### Cost Measurement
+## Cost Measurement
 1. Install RERAN in your rooted mobile phone. Detailed info can be found in this [repository](https://github.com/cuiyungao/RERAN). Then you should use RERAN to record a series of events you want to measure the costs, and save the events to a file, e.g., `./apk_path/events.txt`.
 
 2. Run the `cost_measurement.py` file to profile the costs.
@@ -27,8 +27,11 @@ python cost_computation.py ad_path no_ad_path time_log_path
 
 You will get the cost results in the `./results/cost_dict_new.json`.
 
-### Ad-Related Reviews
+## Ad-Related Reviews
 You can find ad-related reviews under `ad_reviews`, where `adData` contains attributes of reviews, corresponding to each line of review in the file `adReview`. Totally, 19,579 reviews are used.
 
-
+## Related Work
 This repository part of code for our ICSE-C'17 paper: IntelliAd: assisting mobile app developers in measuring ad costs automatically. https://dl.acm.org/citation.cfm?id=3098430
+
+## History
+3/12/2018, first version
